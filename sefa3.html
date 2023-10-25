@@ -215,7 +215,7 @@ pm.sendRequest(firstGetRequest, function (err,firstGetResponse) {
       //!--------------------------------------------------------------------!//
       //!--------------------------------------------------------------------!//
       //!--------------------------------------------------------------------!//            
-      var secondGetRequest = {
+      var thirdGetRequest = {
             method: '${requestMethod3}',
     url: '${requestUrl3}',
     header: {
@@ -232,7 +232,7 @@ pm.sendRequest(firstGetRequest, function (err,firstGetResponse) {
           //
         }
         combinedData = combinedData+ `  };
-        pm.sendRequest(secondGetRequest, function (err, secondGetResponse) {
+        pm.sendRequest(thirdGetRequest, function (err, thirdGetResponse) {
 
       //!--------------------------------------------------------------------!//
       //!-------------------Üçüncü İsteğin Sonucunu İşleme Alanı ---------------!//
