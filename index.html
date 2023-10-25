@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giriş Sayfası</title>
+</head>
+<body>
+    <h1>Giriş Sayfası</h1>
+    <p>Kaç Tane Pre-Request Yazacaksınız:</p>
+    
+    <button id="aButton">Bir Tane Pre-Request</button>
+    <button id="bButton">İki Tane Pre-Request</button>
+    <button id="cButton">Üç Tane Pre-Request</button>
+
+    <script>
+        // A butonuna tıklanınca A sayfasını aç
+        document.getElementById("aButton").addEventListener("click", function () {
+            window.location.href = "sefa1.html";
+        });
+
+        // B butonuna tıklanınca B sayfasını aç
+        document.getElementById("bButton").addEventListener("click", function () {
+            window.location.href = "sefa2.html";
+        });
+
+        // C butonuna tıklanınca C sayfasını aç
+        document.getElementById("cButton").addEventListener("click", function () {
+            window.location.href = "sefa3.html";
+        });
+    </script>
+</body>
+</html>
